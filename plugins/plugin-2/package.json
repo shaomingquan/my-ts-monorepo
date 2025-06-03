@@ -1,9 +1,10 @@
 {
-  "name": "@nighttrax/vite-example",
+  "name": "plugin-2",
   "description": "Example of using Vite in a TS monorepo",
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "main": "src/App.tsx",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -14,8 +15,6 @@
     "@module-federation/vite": "^1.4.1",
     "@nighttrax/components": "workspace:*",
     "@nighttrax/foo": "workspace:*",
-    "plugin-1": "workspace:*",
-    "plugin-2": "workspace:*",
     "react": "~19.1.0",
     "react-dom": "~19.1.0"
   },

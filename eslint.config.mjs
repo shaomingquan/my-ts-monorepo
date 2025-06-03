@@ -33,7 +33,10 @@ export default tsEslint.config(
         version: "detect",
       },
     },
+    rules: {
+      "react/react-in-jsx-scope": "off",
+      "react/jsx-uses-react": "off",
+    },
   },
-
   eslintPluginPrettierRecommended,
 );
