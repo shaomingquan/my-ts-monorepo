@@ -10,9 +10,6 @@ export default defineConfig(({ mode }) => {
     server: {
       port: 4000,
     },
-    build: {
-      target: "esnext",
-    },
     plugins: [
       react(),
       tsconfigPaths(),

@@ -9,7 +9,6 @@ export default defineConfig({
     port: 4002,
   },
   build: {
-    target: "esnext",
     rollupOptions: {
       input: "./src/App.tsx",
       output: {
